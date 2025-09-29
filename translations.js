@@ -18,6 +18,9 @@ const translations = {
     // About section
     about_title: "About Me",
     about_p1: "Computer Science graduate passionate about AI and deep learning. Developed a CNN-based model for early autism screening in children, achieving 89% accuracy using transfer learning (VGG19, MobileNetV2, etc.) with Python and TensorFlow.",
+
+    about_p2: "Served as student coordinator for 900+ peers over 3 years, managing communication between students and faculty. Provided hands-on Ubuntu dual-boot support and OS troubleshooting for 30+ students.",
+    about_p3: "Fluent in English, French, Arabic, and Amazigh. Enjoys photography, football, cycling, and gardening 📸⚽🚴‍♂️🌱",
     about_p2: "Served as student coordinator for 900+ peers over 3 years, managing communication between students and faculty. Provided hands-on Ubuntu dual-boot support and OS troubleshooting for 30+ students. ",
     about_p3: "Fluent in English, French, Arabic, and Amazigh. Enjoys photography, football, cycling, and gardening 📸⚽🚴‍♂️🌱 ",
     about_p4: "Open to opportunities in machine learning, AI, or software development.",
@@ -110,10 +113,10 @@ const translations = {
     
     // About section
     about_title: "À Propos de Moi",
-    about_p1: "En tant qu'étudiant passionné et dévoué en informatique, je suis actuellement en dernière année, me spécialisant dans la classification d'images pour mon Projet de Fin d'Études (PFE). Mon parcours académique m'a doté d'une solide base en programmation Java, SQL, PHP et C, ainsi que d'une expérience pratique en structures de données, algorithmes et recherche opérationnelle (méthode PERT).",
-    about_p2: "Au-delà des cours, j'ai développé un vif intérêt pour l'apprentissage automatique et la vision par ordinateur, que j'explore activement pour améliorer mon expertise technique. Mon expérience en développement logiciel comprend la création d'applications et de sites web, me rendant compétent dans les technologies backend et frontend.",
-    about_p3: "Je suis toujours désireux d'apprendre, de résoudre des problèmes complexes et de collaborer sur des projets innovants. Qu'il s'agisse d'optimiser des algorithmes, de concevoir des systèmes évolutifs ou de travailler sur des solutions basées sur l'IA, je m'épanouis dans des environnements qui me mettent au défi.",
-    about_p4: "Je suis également créateur, administrateur et modérateur des groupes WhatsApp de la première à la troisième année pour les étudiants SMI à l'Université Sidi Mohammed Ben Abdellah à Fès, Faculté des Sciences, département d'Informatique, aidant à faciliter la communication et le partage de connaissances entre les étudiants.",
+    about_p1: "Diplômé en informatique passionné par l'IA et l'apprentissage profond. Développé un modèle CNN pour le dépistage préliminaire de l'autisme chez les enfants, atteignant 89% de précision en utilisant l'apprentissage par transfert (VGG19, MobileNetV2, etc.) avec Python et TensorFlow.",
+    about_p2: "Servi comme coordinateur étudiant pour plus de 900 pairs pendant 3 ans, gérant la communication entre étudiants et faculté. Fourni un support pratique pour l'installation d'Ubuntu en dual-boot et le dépannage OS pour plus de 30 étudiants.",
+    about_p3: "Maîtrise l'anglais, le français, l'arabe et l'amazighe. Passionné par la photographie, le football, le cyclisme et le jardinage 📸⚽🚴‍♂️🌱",
+    about_p4: "Ouvert aux opportunités en apprentissage automatique, IA ou développement logiciel.",
     
     // Skills section
     skills_title: "Compétences & Expertise",
@@ -203,10 +206,10 @@ const translations = {
     
     // About section
     about_title: "نبذة عني",
-    about_p1: "كطالب متحمس ومتفاني في علوم الحاسوب، أنا حاليًا في سنتي الأخيرة، متخصص في تصنيف الصور لمشروع تخرجي (PFE). زودتني رحلتي الأكاديمية بأساس قوي في برمجة جافا، SQL، PHP، وC، إلى جانب خبرة عملية في هياكل البيانات، والخوارزميات، وبحوث العمليات (طريقة PERT).",
-    about_p2: "بعيدًا عن المقررات الدراسية، طورت اهتمامًا كبيرًا بالتعلم الآلي ورؤية الحاسوب، والتي أستكشفها بنشاط لتعزيز خبرتي التقنية. تشمل خبرتي في تطوير البرمجيات بناء التطبيقات والمواقع الإلكترونية، مما يجعلني متمكنًا في تقنيات الواجهة الخلفية والأمامية.",
-    about_p3: "أنا دائمًا متحمس للتعلم، وحل المشكلات المعقدة، والتعاون في المشاريع المبتكرة. سواء كان الأمر يتعلق بتحسين الخوارزميات، أو تصميم أنظمة قابلة للتوسع، أو العمل على حلول مدفوعة بالذكاء الاصطناعي، فأنا أزدهر في البيئات التي تتحداني للنمو.",
-    about_p4: "أنا أيضًا منشئ ومدير ومشرف على مجموعات واتساب من السنة الأولى إلى السنة الثالثة لطلاب SMI في جامعة سيدي محمد بن عبد الله بفاس، كلية العلوم، قسم علوم الحاسوب، مما يساعد على تسهيل التواصل وتبادل المعرفة بين الطلاب.",
+    about_p1: "خريج علوم الحاسوب شغوف بالذكاء الاصطناعي والتعلم العميق. طور نموذج CNN للفحص المبكر للتوحد عند الأطفال، محققًا دقة 89% باستخدام نقل التعلم (VGG19، MobileNetV2، إلخ) مع Python و TensorFlow.",
+    about_p2: "عمل كمنسق طلابي لأكثر من 900 زميل لمدة 3 سنوات، إدارة التواصل بين الطلاب وأعضاء هيئة التدريس. قدم دعمًا عمليًا لتثبيت Ubuntu بنظام التشغيل المزدوج واستكشاف أخطاء نظام التشغيل لأكثر من 30 طالبًا.",
+    about_p3: "يتقن الإنجليزية والفرنسية والعربية والأمازيغية. يستمتع بالتصوير وكرة القدم وركوب الدراجات والبستنة 📸⚽🚴‍♂️🌱",
+    about_p4: "منفتح على الفرص في التعلم الآلي والذكاء الاصطناعي أو تطوير البرمجيات.",
     
     // Skills section
     skills_title: "المهارات والخبرات",
