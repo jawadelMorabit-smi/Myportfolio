@@ -18,8 +18,11 @@ const translations = {
     // About section
     about_title: "About Me",
     about_p1: "Computer Science graduate passionate about AI and deep learning. Developed a CNN-based model for early autism screening in children, achieving 89% accuracy using transfer learning (VGG19, MobileNetV2, etc.) with Python and TensorFlow.",
+
     about_p2: "Served as student coordinator for 900+ peers over 3 years, managing communication between students and faculty. Provided hands-on Ubuntu dual-boot support and OS troubleshooting for 30+ students.",
     about_p3: "Fluent in English, French, Arabic, and Amazigh. Enjoys photography, football, cycling, and gardening 📸⚽🚴‍♂️🌱",
+    about_p2: "Served as student coordinator for 900+ peers over 3 years, managing communication between students and faculty. Provided hands-on Ubuntu dual-boot support and OS troubleshooting for 30+ students. ",
+    about_p3: "Fluent in English, French, Arabic, and Amazigh. Enjoys photography, football, cycling, and gardening 📸⚽🚴‍♂️🌱 ",
     about_p4: "Open to opportunities in machine learning, AI, or software development.",
     
     // Skills section
