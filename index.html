@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaouad El Morabit - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Jaouad El Morabit</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav_about">About</a></li>
+                    <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                    <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="#education" data-i18n="nav_education">Education</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="ar">عربي</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Jaouad El Morabit</h1>
+                    <h2 data-i18n="title">Computer Science Student | Machine Learning Specialist</h2>
+                    <p data-i18n="intro">Passionate about developing AI solutions for healthcare, with expertise in deep learning, computer vision, and software development.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-i18n="btn_projects">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="btn_contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image-container">
+                        <img src="profile.jpg" alt="Jaouad El Morabit" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Me</h2>
+            <div class="about-content">
+                <p data-i18n="about_p1">As a passionate and dedicated computer science student, I am currently in my final year, specializing in image classification for my Final Year Project (PFE). My academic journey has equipped me with a strong foundation in Java, SQL, PHP, and C programming, along with hands-on experience in data structures, algorithms, and operational research (PERT method).</p>
+                <p data-i18n="about_p2">Beyond coursework, I have developed a keen interest in machine learning and computer vision, which I am actively exploring to enhance my technical expertise. My experience in software development includes building applications and websites, making me proficient in both backend and frontend technologies.</p>
+                <p data-i18n="about_p3">I am always eager to learn, solve complex problems, and collaborate on innovative projects. Whether it's optimizing algorithms, designing scalable systems, or working on AI-driven solutions, I thrive in environments that challenge me to grow.</p>
+                <p data-i18n="about_p4">I also serve as the creator, administrator, and moderator for WhatsApp groups from first to third year for SMI students at Sidi Mohammed Ben Abdellah University in Fez, Faculty of Sciences, Computer Science department, helping to facilitate communication and knowledge sharing among students.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills_title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-i18n="skill1_title">Programming Languages</h3>
+                    <p data-i18n="skill1_desc">Proficient in Java, SQL, PHP, C, and Python. Experienced in developing applications using these languages for various purposes, from database management to algorithm implementation.</p>
+                </div>
+                
+                <!-- Machine Learning & Computer Vision -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 data-i18n="skill2_title">Machine Learning & Computer Vision</h3>
+                    <p data-i18n="skill2_desc">Specialized in deep learning models for image classification, with experience in TensorFlow and neural network architectures. Skilled in transfer learning, fine-tuning, and ensemble methods.</p>
+                </div>
+                
+                <!-- Data Structures & Algorithms -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 data-i18n="skill3_title">Data Structures & Algorithms</h3>
+                    <p data-i18n="skill3_desc">Strong foundation in data structures and algorithms, with practical experience in implementing efficient solutions for complex problems. Familiar with optimization techniques and algorithm analysis.</p>
+                </div>
+                
+                <!-- Operational Research -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="skill4_title">Operational Research</h3>
+                    <p data-i18n="skill4_desc">Experience with operational research techniques, particularly the PERT method for project management and optimization. Capable of applying mathematical models to solve real-world problems.</p>
+                </div>
+                
+                <!-- Frontend Development -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 data-i18n="skill5_title">Frontend Development</h3>
+                    <p data-i18n="skill5_desc">Skilled in creating responsive and interactive user interfaces using modern web technologies. Experienced in building websites with clean, maintainable code and intuitive user experiences.</p>
+                </div>
+                
+                <!-- Backend Development -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 data-i18n="skill6_title">Backend Development</h3>
+                    <p data-i18n="skill6_desc">Experienced in server-side programming and database management. Capable of designing and implementing robust backend systems that support complex application requirements.</p>
+                </div>
+                
+                <!-- System Administration -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 data-i18n="skill7_title">System Administration</h3>
+                    <p data-i18n="skill7_desc">Proficient in Windows and Ubuntu installation, including efficient dual boot setup. Experienced in setting up and maintaining operating systems for optimal performance and security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects_title">Projects</h2>
+            
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <h3 data-i18n="project1_title">Deep Learning Models for Preliminary Autism Spectrum Disorder Screening</h3>
+                <p class="project-meta" data-i18n="project1_meta">Final Year Project (PFE) | May 2025</p>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_overview_title">Project Overview</h4>
+                    <p data-i18n="project1_overview">This project focused on developing deep learning models for the preliminary screening of Autism Spectrum Disorder (ASD) using image classification techniques. The research aimed to create accessible tools that could assist in early detection, particularly in regions with limited specialized expertise.</p>
+                </div>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_approach_title">Technical Approach</h4>
+                    <p data-i18n="project1_approach">I implemented and compared four CNN architectures: DenseNet121, MobileNetV2, VGG19, and InceptionV3. The approach involved applying transfer learning and fine-tuning techniques to optimize performance, developing ensemble learning methods using soft voting to improve accuracy, and building on Python/TensorFlow with development on Kaggle.</p>
+                </div>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_results_title">Key Results</h4>
+                    <ul>
+                        <li data-i18n="project1_result1">Achieved 89% accuracy with ensemble learning approach</li>
+                        <li data-i18n="project1_result2">Reached 87.7% accuracy with MobileNetV2 after fine-tuning</li>
+                        <li data-i18n="project1_result3">Demonstrated significant improvement (6.33%) through fine-tuning techniques</li>
+                        <li data-i18n="project1_result4">Optimized models for potential mobile deployment</li>
+                    </ul>
+                </div>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_comparison_title">Model Performance Comparison</h4>
+                    <div class="project-image">
+                        <img src="model_comparison_chart.png" alt="Model Performance Comparison Chart">
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_impact_title">Impact</h4>
+                    <p data-i18n="project1_impact">The project aims to facilitate early access to ASD screening, especially in regions where specialized expertise is limited. The AI models serve as complementary tools to traditional clinical methods, potentially improving early intervention rates.</p>
+                </div>
+                
+                <div class="project-section">
+                    <h4 data-i18n="project1_future_title">Future Directions</h4>
+                    <p data-i18n="project1_future">The research establishes the technical foundation for a future mobile application. Next steps include transforming these models into a concrete solution to improve healthcare access.</p>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://www.kaggle.com/code/jaouadelmorabit/image-classification-autistic-children" target="_blank" class="project-link">
+                        <i class="fab fa-kaggle"></i> <span data-i18n="project1_link">View on Kaggle</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Project Placeholder -->
+            <div class="more-projects">
+                <p data-i18n="more_projects">More projects coming soon...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education_title">Education</h2>
+            
+            <div class="education-card">
+                <h3 data-i18n="education1_title">Computer Science Degree</h3>
+                <p class="education-meta" data-i18n="education1_meta">Université Sidi Mohammed Ben Abdellah - Fès | 2021-2025</p>
+                <p class="education-institution" data-i18n="education1_institution">Faculté des Sciences Dhar El Mahraz (FSDM)</p>
+                
+                <div class="education-details">
+                    <h4 data-i18n="education1_achievements_title">Key Achievements</h4>
+                    <p data-i18n="education1_achievements">Successfully defended my Final Year Project (PFE) on "Développement de Modèles de Deep Learning pour le Dépistage Préliminaire du Trouble du Spectre de l'Autisme" on May 24, 2025.</p>
+                    
+                    <h4 data-i18n="education1_coursework_title">Relevant Coursework</h4>
+                    <ul>
+                        <li data-i18n="education1_course1">Data Structures and Algorithms</li>
+                        <li data-i18n="education1_course2">Database Management Systems</li>
+                        <li data-i18n="education1_course3">Software Engineering</li>
+                        <li data-i18n="education1_course4">Operational Research</li>
+                        <li data-i18n="education1_course5">Artificial Intelligence</li>
+                        <li data-i18n="education1_course6">Computer Vision</li>
+                        <li data-i18n="education1_course7">Web Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Get In Touch</h2>
+            
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3 data-i18n="contact_form_title">Contact Me</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact_name">Name</label>
+                            <input type="text" id="name" data-i18n-placeholder="contact_name_placeholder" placeholder="Your name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact_email">Email</label>
+                            <input type="email" id="email" data-i18n-placeholder="contact_email_placeholder" placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact_message">Message</label>
+                            <textarea id="message" rows="5" data-i18n-placeholder="contact_message_placeholder" placeholder="Your message here..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="contact_send">Send Message</button>
+                    </form>
+                    
+                    <div class="contact-info">
+                        <h4 data-i18n="contact_direct">Direct Contact</h4>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:jawadmorabit.2002@gmail.com">jawadmorabit.2002@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4 data-i18n="contact_social">Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.kaggle.com/jaouadelmorabit" target="_blank" title="Kaggle">
+                                <i class="fab fa-kaggle"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jaouad-el-morabit-8151781b7" target="_blank" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/jawadelMorabit-smi" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Jaouad El Morabit. <span data-i18n="footer_rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
