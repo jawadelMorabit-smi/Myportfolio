@@ -17,10 +17,10 @@ const translations = {
     
     // About section
     about_title: "About Me",
-    about_p1: "As a passionate and dedicated computer science student, I am currently in my final year, specializing in image classification for my Final Year Project (PFE). My academic journey has equipped me with a strong foundation in Java, SQL, PHP, and C programming, along with hands-on experience in data structures, algorithms, and operational research (PERT method).",
-    about_p2: "Beyond coursework, I have developed a keen interest in machine learning and computer vision, which I am actively exploring to enhance my technical expertise. My experience in software development includes building applications and websites, making me proficient in both backend and frontend technologies.",
-    about_p3: "I am always eager to learn, solve complex problems, and collaborate on innovative projects. Whether it's optimizing algorithms, designing scalable systems, or working on AI-driven solutions, I thrive in environments that challenge me to grow.",
-    about_p4: "I also serve as the creator, administrator, and moderator for WhatsApp groups from first to third year for SMI students at Sidi Mohammed Ben Abdellah University in Fez, Faculty of Sciences, Computer Science department, helping to facilitate communication and knowledge sharing among students.",
+    about_p1: "Computer Science graduate passionate about AI and deep learning. Developed a CNN-based model for early autism screening in children, achieving 89% accuracy using transfer learning (VGG19, MobileNetV2, etc.) with Python and TensorFlow.",
+    about_p2: "Served as student coordinator for 900+ peers over 3 years, managing communication between students and faculty. Provided hands-on Ubuntu dual-boot support and OS troubleshooting for 30+ students. ",
+    about_p3: "Fluent in English, French, Arabic, and Amazigh. Enjoys photography, football, cycling, and gardening 📸⚽🚴‍♂️🌱 ",
+    about_p4: "Open to opportunities in machine learning, AI, or software development.",
     
     // Skills section
     skills_title: "Skills & Expertise",
