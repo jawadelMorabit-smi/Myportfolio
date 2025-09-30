@@ -10,7 +10,7 @@ const translations = {
     nav_contact: "Contact",
     
     // Home section
-    title: "Computer Science Student | Machine Learning Specialist",
+    title: "Bachelor’s degree in Computer Science",
     intro: "Passionate about developing AI solutions for healthcare, with expertise in deep learning, computer vision, and software development.",
     btn_projects: "View Projects",
     btn_contact: "Contact Me",
